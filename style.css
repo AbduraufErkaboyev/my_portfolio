@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgba(0, 0, 0, 0.5) url("./img/bg-01.jpg");
+    background: rgba(71, 52, 52, 0.6) url("https://images.wallpaperscraft.ru/image/siluet_noch_zvezdnoe_nebo_137292_1280x720.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -295,9 +295,11 @@ button {
     }
 
     .menu {
+        border-radius: 10px;
         display: inline-block;
         width: 80px;
         margin-left: auto;
+        background-color: none;
     }
 
     .nav_bar {
