@@ -1,2 +1,2 @@
-# my_portfolio
+# firs_portfolio
 Bu mening shaxsiy (tayyorlagan) saytim.
