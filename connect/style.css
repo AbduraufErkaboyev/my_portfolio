@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first-btn {
+    border: 2px solid #3498db;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+.first-btn a {
+    color: #3498db;
+}
+
+.second-btn {
+    border: none;
+    background-color: #21bf73;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+.second-btn a {
+    color: white;
+}
+
+.text-succes {
+    color: #21bf73;
+}
+
+
+.card-img-top {
+    max-width: 80px;
+    height: 80px;
+}
+.card{
+    border: none !important;
+}
+.card-1 {
+    border-radius: 0 !important;
+    background-color: #fff2e5 !important;
+}
+
+.card-2 {
+    border-radius: 0 !important;
+    background-color: #f8f9fa !important;
+}
+.card-3{
+    border-radius: 0 !important;
+    background-color: #f0f5f9 !important;
+}

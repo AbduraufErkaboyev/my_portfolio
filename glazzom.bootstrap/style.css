@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#blog{
+    background: url("./img/yol.jpg");
+    position: relative;
+    height: 200px;
+}
+.box{
+    position: absolute;
+    background-color: rgba(0,0,0, .6);
+    width: 100%;
+    height: 200px;
+}
+#blog2{
+    background: url("./img/konvert.jpg");
+    position: relative;
+    height: 200px;
+}
+#footer{
+    background-color: black;
+    height: 110px;
+}
