@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.header{
+    background-color: #022890;
+}
+.header_1{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.right{
+    margin-top: 10px;
+    display: flex;
+    width: 550px;
+    align-items: center;
+    justify-content: space-between;
+}
+.manzil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.telefon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ish_vaqti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon i{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.info h1{
+    font-size: 13px;
+}
+.info p{
+    font-size: 12px;
+    color: #bbb;
+}
+.info h1,
+.info p{
+    line-height: 0.8;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.left i{
+    font-size: 20px;
+    color: white;
+    transition: all .3s ease;
+}
+.left i:hover{
+    font-size: 30px;
+}
+@media (max-width: 768px){
+    .header{
+        display: none;
+    }
+}
+
+/* navbar */
+.navbar-brand img{
+    border-radius: 50%;
+    height: 60px;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-brand h1{
+    margin-top: 15px !important;
+    font-size: 25px;
+}
+.navbar-brand h1 a{
+    color: #022890;
+    text-decoration: none;
+}
+.navbar-brand h1 a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.navbar-brand p{
+    font-weight: 700;
+}
+.navbar-brand .info{
+    margin-left: 10px !important;
+}
+
+.nav-item a{
+    font-weight: 700;
+
+}
+.nav-item a:hover{
+    color: rgb(14, 14, 172) !important;
+}
+.active{
+    color: rgb(19, 19, 223) !important;
+    border-bottom: 2px solid rgb(9, 9, 173) !important;
+}
+.nav-link{
+    color: black !important;
+}
+/* navbar */
+/* sub header */
+
+.sub_header{
+    height: 250px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background: rgba(0, 0, 0, 0.8) url(./img/sub-header.jpg);
+    background-blend-mode: darken !important;
+}
+.sub_header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sub_header_1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* sub header */
+
+/* firs section */
+
+.first_section{
+    text-align: center;
+}
+.first_section h1{
+    font-size: 30px;
+    font-weight: 650;
+    color: #2E5CA8;
+}
+.first_section h2{
+    font-size: 30px;
+    font-weight: 650;
+}
+.first_section  h3{
+    font-size: 20px;
+    text-align: start;
+    line-height: 1.5;
+}
+h3 a{
+    transition: all .3s ease;
+}
+h3 a:hover{
+    color: black;
+}
+h3 span a{
+    color: black;
+}
+/* firs section */
+
+/* news */
+
+.news h1{
+    color: #2E5CA8;
+}
+.news ul li a{
+    font-weight: 700;
+    text-decoration: none;
+    color: #022890;
+}
+.news ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.news ul li{
+    line-height: 2;
+}
+/* news */
+/* manbalar */
+
+.card{
+    margin-right: 20px;
+    border: 3px solid rgb(7, 7, 133) !important;
+    border-radius: 0 !important;
+    margin-bottom: 20px;
+    padding: 0 !important;
+    transition: all .3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.light1{
+    position: relative;
+}
+.light{
+    transition: all .3s ease;
+}
+.card:hover .light{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+.card a{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/* manbalar */
+
+/* footer */
+.bs-footer-widget-area{
+    background-color: black;
+    padding: 50px 0;
+}
+/* footer */
+
+
