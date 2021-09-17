@@ -224,9 +224,28 @@ h3 span a{
 /* manbalar */
 
 /* footer */
-.bs-footer-widget-area{
+.footer{
     background-color: black;
     padding: 50px 0;
+}
+.markaz_haqida h1{
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+}
+.markaz_haqida p{
+    line-height: 1.7;
+    color: silver;
+}
+.markaz_haqida  a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    line-height: 1.8;
+}
+.markaz_haqida a:hover{
+    text-decoration: underline;
+    color: white !important;
 }
 /* footer */
 
