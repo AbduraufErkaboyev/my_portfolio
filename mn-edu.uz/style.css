@@ -5,8 +5,11 @@
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
 }
+body{
+    background-color: #fff !important;
+}
 .header{
-    background-color: #022890;
+    background-color: #22223b;
 }
 .header_1{
     padding: 20px 0;
@@ -80,7 +83,7 @@
 
 /* navbar */
 .navbar-brand img{
-    border-radius: 50%;
+    border-radius: 30px;
     height: 60px;
 }
 .navbar-brand{
@@ -119,15 +122,19 @@
 .nav-link{
     color: black !important;
 }
+.navbar li{
+    cursor: pointer !important;
+}
 /* navbar */
 /* sub header */
 
 .sub_header{
+    background-attachment: fixed !important;
     height: 250px;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background: rgba(0, 0, 0, 0.8) url(./img/sub-header.jpg);
+    background: rgba(0, 0, 0, 0.6) url(./img/sub-header.jpg);
     background-blend-mode: darken !important;
 }
 .sub_header h1{
@@ -246,6 +253,72 @@ h3 span a{
 .markaz_haqida a:hover{
     text-decoration: underline;
     color: white !important;
+}
+
+.navigatsiya h1{
+    line-height: 2;
+    color: white;
+    font-size: 20px;    
+}
+.link a{
+    text-decoration: none;
+    color: silver;
+}
+.link{
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 2px solid silver;
+}
+.link a:hover{
+    color: silver;
+    text-decoration: underline;
+}
+
+.aloqa h1{
+    line-height: 2;
+    font-size: 20px;
+    color: white;
+}
+.aloqa h2{
+    font-size: 15px;
+    color: rgb(241, 235, 235);
+}
+.aloqa p{
+    color: silver;
+}
+
+.map h1{
+    line-height: 2;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    #map{
+        width: 200px !important;
+    }
+}
+@media (max-width: 992px){
+    #map{
+        height: 300px !important;
+    }
+}
+@media (max-width: 830px){
+    #map{
+        width: 150px !important;
+    }
+}
+@media (max-width: 576px){
+    #map{
+        width: 100% !important;
+        height: 400px !important;
+    }
 }
 /* footer */
 
