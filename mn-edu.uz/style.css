@@ -241,7 +241,7 @@ h3 span a{
 
 /* footer */
 .footer{
-    background-color: black;
+    background-color: #22223b;
     padding: 50px 0;
 }
 .markaz_haqida h1{
@@ -329,22 +329,43 @@ h3 span a{
         height: 400px !important;
     }
 }
-.author{
-    background-color: black;
+
+
+.muallif{
+    padding-top: 70px;
+    background-color: #22223b;
+    padding-bottom: 10px;
 }
-.author .row .col:nth-child(1){
+.muallif .malumot{
     display: flex;
     align-items: center;
 }
-.author .row .col:nth-child(1) a{
+.muallif a{
     color: white;
-    margin-right: 10px;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: 12px;
 }
-.author .row .col:nth-child(1) h1{
-    font-size: 20px;
-    margin-right: 10px;
+.muallif h1{
     color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.muallif a:hover{
+    color: rgb(9, 9, 143);
+    text-decoration: underline;
+}
+
+.muallif .ikon{
+    text-align: right;
+}
+.muallif .ikon i{
+    font-size: 17px;
+    margin-right: 30px;
+    transition: all .3s ease;
+}
+.muallif .ikon  i:hover{
+    color: blue;
 }
 /* footer */
 
