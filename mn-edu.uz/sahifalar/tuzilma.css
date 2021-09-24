@@ -6,7 +6,7 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 body{
-    background-color: #fff !important;
+    background-color: rgb(240, 240, 240) !important;
 }
 .header{
     background-color: #22223b;
@@ -126,118 +126,40 @@ body{
     cursor: pointer !important;
 }
 /* navbar */
-/* sub header */
-@media (max-width: 768px){
-    .slide{
-        display: none;
-    }
-    .asosiy{
-        display: block !important;
-    }
-}
+/* subheader */
 
- .asosiy{
-   background: rgba(0,0,0, .6) url(./img/sub-header.jpg);
-    display: none;
-    height: 200px;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-}
-.asosiy .row{
-    width: 100% !important;
-    height: 100% !important;
-    display: flex !important;
-    align-items: center !important;
-}
-.asosiy h1{
-    color: white;
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 40px;
-}
-/* sub header */
+.asosiy{
+    background: rgba(0,0,0, .6) url(../img/sub-header.jpg);
+     height: 250px;
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+     background-blend-mode: darken;
+ }
+ .asosiy .container{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+ }
+ .asosiy .row{
+     width: 100% !important;
+     height: 100% !important;
+     display: flex !important;
+     align-items: center !important;
+ }
+ .asosiy h1 pre{
+     color: white;
+     font-size: 40px;
+     font-weight: 600;
+     margin-left: 40px;
+ }
 
-/* firs section */
+/* subheader */
 
-.first_section{
-    text-align: center;
-}
-.first_section h1{
-    font-size: 30px;
-    font-weight: 650;
-    color: #2E5CA8;
-}
-.first_section h2{
-    font-size: 30px;
-    font-weight: 650;
-}
-.first_section  h3{
-    font-size: 20px;
-    text-align: start;
-    line-height: 1.5;
-}
-h3 a{
-    transition: all .3s ease;
-}
-h3 a:hover{
-    color: black;
-}
-h3 span a{
-    color: black;
-}
-/* firs section */
+/* main */
 
-/* news */
-
-.news h1{
-    color: #2E5CA8;
-}
-.news ul li a{
-    font-weight: 700;
-    text-decoration: none;
-    color: #022890;
-}
-.news ul li a:hover{
-    text-decoration: underline;
-    color: black;
-}
-.news ul li{
-    line-height: 2;
-}
-/* news */
-/* manbalar */
-
-.card{
-    margin-right: 20px;
-    border: 3px solid rgb(7, 7, 133) !important;
-    border-radius: 0 !important;
-    margin-bottom: 20px;
-    padding: 0 !important;
-    transition: all .3s ease;
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.light1{
-    position: relative;
-}
-.light{
-    transition: all .3s ease;
-}
-.card:hover .light{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-}
-.card a{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-/* manbalar */
+/* main */
 
 /* footer */
 .footer{
@@ -368,5 +290,3 @@ h3 span a{
     color: blue;
 }
 /* footer */
-
-
